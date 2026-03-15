@@ -1,0 +1,365 @@
+﻿<html>
+<body>
+
+<style text="text/css">
+
+
+#animal{
+font-family:avenir;
+color:black;
+font-size:30pt;
+display: grid;
+text-align: center;
+}
+
+
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Source Sans 3", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+ 	 font-style: normal;
+}
+
+
+
+.container__menu ul{
+	padding: 0;
+	list-style: none;
+}
+
+.menu-principal > li{
+	display: inline-block;
+}
+
+.menu-principal > li a{
+	display: block;
+	padding: 10px 5px;
+	width: 190px;
+}
+
+li ul{
+	position: absolute;
+	display: none;
+}
+
+.sub-menu a{
+	display: block;
+	padding: 10px 5px;
+	width: 130px;
+}
+
+li:hover ul{
+	display:block
+}
+
+.container__menu, li ul{
+	background:#43C6DB
+}
+	
+
+
+.menu-principal{
+	width:100%;
+	margin: 0: auto;
+}
+
+.menu-principal a{
+	color:#FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu-principal li:hover{
+	background: #43C6DB;
+	text-shadow: 0 0 2px #000;
+}
+
+
+
+
+
+
+
+
+
+body{
+  margin:0;
+  padding:0;
+  background:#f2f2f2;
+  font-family: 'Acme';
+}
+
+.container{
+  max-width:1000px;
+  margin:100px auto;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.card{
+  position:relative;
+  margin:20px 0;
+  width:300px;
+  height:400px;
+  background: #fff;
+  transform-style:preserve-3d;
+  transform:perspective(2000px);
+  transition:1s;
+  box-shadow:inset 100px 0 50px rgba(0,0,0,0.5);
+}
+
+.card:hover{
+  z-index:1111;
+  transform:perspective(2000px) rotate(-10deg);
+  box-shadow:inset 20px 0 50px rgba(0,0,0,0.5);
+}
+
+.card .img-container{
+  position:relative;
+  width:100%;
+  height:100%;
+  border:1px solid #000;
+  box-sizing:border-box;
+  transform-origin:left;
+  z-index:1;
+  transition:1s;
+}
+
+.card .img-container img{
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  object-fit:cover;
+}
+
+.card:hover .img-container{
+  transform:rotateY(-135deg);
+}
+
+.card .card-details{
+  position:absolute;
+  left:0;
+  top:0;
+  box-sizing:border-box;
+  padding:20px;
+  color:#000;
+}
+
+ .card .card-details h2{
+  margin:0;
+  padding:0.5em 0;
+  text-transform:uppercase;
+  font-size:2em;
+  color:#ed363a;
+}
+
+.card .card-details p{
+  margin:0;
+  padding:0;
+  line-height:25px;
+  font-size:1.1em;
+}
+
+</style>
+
+<header>
+
+<div class="container__menu">
+
+                                             
+                                                   <ul class="menu-principal">
+                                                       <li><a href="index.html">Inicio</a></li>
+                                                       <li><a href="#">Peces</a>
+                                                                                     <ul class="sub-menu">
+                                                                                          <li><a href="https://www.fishipedia.es/pez/zoogoneticus-tequila">Picote tequila</a></li>
+                                                                                          <li><a href="https://www.gob.mx/profepa/articulos/pez-totoaba-el-pez-mas-grande-del-alto-golfo">Pez Totoaba</a></li>
+                                                                                          <li><a href="https://conanp.gob.mx/conanp/dominios/chichinautzin/especies/mexcalpique.htm">Mexcalpique</a></li>
+                                                                                          <li><a href="https://www.fishipedia.es/pez/astyanax-mexicanus">Tetra mexicano</a></li>
+                                                                                          <li><a href="https://animalia.bio/es/mexican-blind-brotula?taxonomy=9068">Dama blanca ciega</a></li>
+
+
+
+                                                                                     </ul>
+                                                                                     </li>
+
+                                                       <li><a href="#">Mamíferos</a>
+
+                                                                                     <ul class="sub-menu">
+                                                                                          <li><a href="armadillo.html">Armadillo</a></li>
+                                                                                          <li><a href="coyote.html">Coyote</a></li>
+                                                                                          <li><a href="jaguar.html">Jaguar</a></li>
+                                                                                          <li><a href="ocelote.html">Ocelote</a></li>
+                                                                                          <li><a href="tlacuache.html">Tlacuache</a></li>
+
+
+
+                                                                                     </ul>
+ 
+                                                       </li>
+
+
+                                                       <li><a href="#">Anfibios</a>
+                                                                                    <ul class="sub-menu">
+                                                                                          <li><a href="anfibios.html">Ajolote mexicano</a></li>
+                                                                                          <li><a href="anfibios.html">Rana Arborícola Mexicana</a></li>
+                                                                                          <li><a href="anfibios.html">Sapo de Caña</a></li>
+                                                                                          <li><a href="anfibios.html">Salamandra de Lengua de Hongo</a></li>
+                                                                                          <li><a href="anfibios.html">Cecilia Mexicana</a></li>
+
+
+
+                                                                                     </ul>
+                                                                                     </li>
+
+
+                                                       <li><a href="#">Aves</a>
+
+                                                                                     <ul class="sub-menu">
+                                                                                          <li><a href="https://www.inecol.mx/index.php/divulgacion/ciencia-hoy/quetzal-ave-de-ciencia-y-ficcion">Quetzal</a></li>
+                                                                                          <li><a href="https://es.wikipedia.org/wiki/Aquila_chrysaetos">Aguila Real</a></li>
+                                                                                          <li><a href=" https://es.wikipedia.org/wiki/Oreophasis_derbianus">Pavón cornudo</a></li>
+                                                                                          <li><a href="https://animalia.bio/es/keel-billed-toucan?property=79">Tucan pico iris</a></li>
+                                                                                          <li><a href="https://es.wikipedia.org/wiki/Eumomota_superciliosa">Toh</a></li>
+
+
+
+                                                                                     </ul>
+                                                                                     </li>
+
+                                                       <li><a href="#">Reptiles</a>
+
+                                                                                     <ul class="sub-menu">
+                                                                                          <li><a href="vivora de cascabel.html">Vibora de Cascabel</a></li>
+                                                                                          <li><a href="caiman.html">Caiman</a></li>
+                                                                                          <li><a href="cocodrilos.html">Cocodrilo</a></li>
+                                                                                          <li><a href="tolock.html">Tolok</a></li>
+                                                                                          <li><a href="boa.html">Boa</a></li>
+
+
+
+                                                                                     </ul>
+
+                                                       </li>
+
+                                                       
+
+                                                   </ul>
+
+
+
+
+
+
+
+</header>
+
+<pre>
+
+
+
+<div id="animal">ANIMALES</div>
+
+
+
+</pre>
+
+
+
+
+
+
+
+<div class="container">
+  <div class="card">
+    <div class="img-container">
+      <img src="libertyplay-koi-7560761_1920.png" alt=""/>
+    </div>
+    <div class="card-details">
+      <h2>Peces</h2>
+      <p>Los peces son animales vertebrados acu ticos, mayoritariamente ectot rmicos (sangre fr a), que respiran a trav s de branquias y utilizan aletas para desplazarse. Poseen columna vertebral, piel generalmente cubierta de escamas y viven tanto en agua dulce como salada. Se clasifican principalmente en  seos y cartilaginosos (como tiburones). </p>
+    </div>
+  </div>
+
+
+
+   <div class="card">
+    <div class="img-container">
+      <img src="lenahelfinger-leopard-5379462.png" alt=""/>
+    </div>
+    <div class="card-details">
+      <h2>Mamiferos</h2>
+      <p>Los mam feros son una clase de animales vertebrados, de sangre caliente (homeotermos), caracterizados por tener el cuerpo cubierto de pelo, respirar mediante pulmones y, fundamentalmente, por alimentar a sus cr as con leche producida por gl ndulas mamarias. La mayor a son viv paros (nacen del vientre materno) y habitan en entornos terrestres, acu ticos y a reos.</p>
+    </div>
+  </div>
+
+
+
+   <div class="card">
+    <div class="img-container">
+      <img src="ariapsa-axolotl-7693432.jpg" alt=""/>
+    </div>
+    <div class="card-details">
+      <h2>Anfibios</h2>
+      <p>Los anfibios son animales vertebrados ectotermos (sangre fr a) caracterizados por una "doble vida" que divide su ciclo vital entre el agua (fase larvaria con branquias) y la tierra (fase adulta con pulmones). Pertenecen a la clase Amphibia y destacan por su piel h meda, suave y sin escamas, la cual utilizan para respirar.</p>
+    </div>
+  </div>
+
+
+
+   <div class="card">
+    <div class="img-container">
+      <img src="tanrica-ai-generated-8706000.jpg" alt=""/>
+    </div>
+    <div class="card-details">
+      <h2>Reptiles</h2>
+      <p>Los reptiles son animales vertebrados terrestres o acu ticos, caracterizados por tener la piel seca, cubierta de escamas o placas, y ser ectotermos (de sangre fr a), lo que significa que dependen del entorno para regular su temperatura corporal. Respiran mediante pulmones, son mayoritariamente ov paros y se caracterizan por reptar o arrastrarse.</p>
+    </div>
+  </div>
+
+
+
+   <div class="card">
+    <div class="img-container">
+      <img src="zhua-gun-kao-xzhe-chi-_jie-gun-xxgun-ji-lozhe-chi-bird-6894776.jpg" alt=""/>
+    </div>
+    <div class="card-details">
+      <h2>Aves</h2>
+      <p>Las aves son animales vertebrados endot rmicos (de sangre caliente) caracterizados por tener el cuerpo cubierto de plumas, un pico c rneo sin dientes, huesos huecos y extremidades anteriores modificadas como alas. Son ov paras (ponen huevos), la mayor a puede volar, y descienden directamente de los dinosaurios ter podos.</p>
+    </div>
+  </div>
+
+
+
+   <div class="card">
+    <div class="img-container">
+      <img src="somoselquipo8unarazasuperior.jpeg" alt=""/>
+    </div>
+    <div class="card-details">
+      <h2>Integrantes del Equipo</h2>
+      <p><ul=circle">
+<pre>                     <li>Euan Euan Alan Jave</li>
+
+                              <li>Millan Chi Jordan Alonso</li>
+
+                              <li>Chan Zapata Marco Eliezer</li>
+
+                              <li>Ciau Yam Jireh Uzziel</li>
+                              <li>Duarte Tah Luis Adrian</li>
+</pre>
+          </ul>
+</p>
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>
